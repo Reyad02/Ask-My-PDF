@@ -57,3 +57,5 @@ uvicorn main:app --reload
 cd Frontend
 streamlit run app.py
 ```
+## Demo
+![image_alt](https://github.com/Reyad02/Ask-My-PDF/blob/3b2a1a0fc19e8c0567949d0ce636260cbb642aed/Demo.jpg)
