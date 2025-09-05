@@ -8,12 +8,10 @@ It combines a **Streamlit frontend** with a **FastAPI backend**, uses **LangChai
 ##  Features
 -  Upload any PDF document.
 -  Ask questions in plain English about the content.
--  Powered by **LangChain** for document chunking, embeddings, and retrieval.
+-  Powered by **LangChain** for document chunking, embeddings and retrieval.
 -  ChromaDB + SQLite for efficient vector search and metadata storage.
--  FastAPI backend for API requests.
--  Streamlit frontend for an interactive UI.
--  Secure environment configuration via `.env`.
--  MIT Licensed (free to use and modify).
+-  Provides response based on the current session history.
+
 
 ---
 
