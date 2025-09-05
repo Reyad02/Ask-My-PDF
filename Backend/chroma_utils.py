@@ -4,7 +4,10 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
 from typing import List
 from langchain_core.documents import Document
+from dotenv import load_dotenv
 import os
+
+load_dotenv()
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200, length_function=len)
 embedding_function = OpenAIEmbeddings()

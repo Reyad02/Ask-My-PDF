@@ -1,0 +1,61 @@
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: 34acde3e-4e9a-479c-87af-ad03709a79e9, User Query: what is the name of the bike?, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 34acde3e-4e9a-479c-87af-ad03709a79e9, AI Response: The bike is called the Yamaha R15 V4.
+INFO:root:Session ID: 34acde3e-4e9a-479c-87af-ad03709a79e9, User Query: what is the price??, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 34acde3e-4e9a-479c-87af-ad03709a79e9, AI Response: The review mentions that the price of the Yamaha R15 V4 is a bit on the higher side compared to its competitors, but it does not specify the exact price. For the current price, it would be best to check Yamaha's official website or contact a dealer, as prices can vary depending on the location and market conditions.
+INFO:root:Session ID: 34acde3e-4e9a-479c-87af-ad03709a79e9, User Query: what is the rating, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 34acde3e-4e9a-479c-87af-ad03709a79e9, AI Response: The rating for the Yamaha R15 V4 is 4.3 out of 5.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: 12925a6a-e4de-4e2b-820c-1345291443a5, User Query: what is the name of the car, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 12925a6a-e4de-4e2b-820c-1345291443a5, AI Response: The name of the car is the Toyota Corolla 2024.
+INFO:root:Session ID: 12925a6a-e4de-4e2b-820c-1345291443a5, User Query: what is the pros, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 12925a6a-e4de-4e2b-820c-1345291443a5, AI Response: The pros of the Toyota Corolla 2024 include:
+
+1. **Premium Cabin**: The interior features soft-touch materials and a user-friendly infotainment system.
+2. **Smooth Ride Quality**: It handles bumps and potholes effortlessly, providing a comfortable driving experience.
+3. **Excellent Fuel Economy**: Averaging about 16 km/l on mixed driving makes it economical.
+4. **Safety Features**: Equipped with features like lane assist and adaptive cruise control, enhancing safety.
+5. **Reliability**: Known for being a dependable and safe choice, especially for families. 
+
+Overall, it presents as a comfortable and reliable sedan.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: eb6b6672-371e-4688-80d3-772287ce772d, User Query: what is the car name, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: eb6b6672-371e-4688-80d3-772287ce772d, AI Response: The car is the Toyota Corolla 2024.
+INFO:root:Session ID: eb6b6672-371e-4688-80d3-772287ce772d, User Query: what are the pros, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: eb6b6672-371e-4688-80d3-772287ce772d, AI Response: The pros of the Toyota Corolla 2024 include:
+
+1. Premium cabin with soft-touch materials.
+2. User-friendly infotainment system.
+3. Smooth ride quality that handles bumps and potholes effortlessly.
+4. Excellent fuel economy, averaging about 16 km/l on mixed driving.
+5. Advanced safety features such as lane assist and adaptive cruise control.
+6. Reliable, safe, and comfortable, making it a great option for families.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: 51290988-2d5f-4a6e-9a2c-7ebfb54ca734, User Query: what is the name of the car, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 51290988-2d5f-4a6e-9a2c-7ebfb54ca734, AI Response: The name of the car is the Toyota Corolla 2024.

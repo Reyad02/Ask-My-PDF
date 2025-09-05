@@ -20,8 +20,8 @@ class DocumentInfo(BaseModel):
     id: int
     filename: str
     upload_timestamp: datetime
-    file_size: int  
-    content_type: str 
+    # file_size: int  
+    # content_type: str 
 
 class DeleteFileRequest(BaseModel):
     file_id: int
