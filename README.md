@@ -1,6 +1,6 @@
-# Ask-My-PDF
+# DocuQueryAI: Natural-Language Question Answering for PDF Documents
 
-Ask-My-PDF is an AI-powered application that lets you upload any PDF and then **ask natural-language questions** about its contents.  
+DocuQueryAI is an AI-powered application that lets you upload any PDF and then **ask natural-language questions** about its contents.  
 It combines a **Streamlit frontend** with a **FastAPI backend**, uses **LangChain + ChromaDB + SQLite** for document processing and semantic search, and leverages the **OpenAI API** for intelligent question answering.
 
 ---
@@ -28,8 +28,8 @@ It combines a **Streamlit frontend** with a **FastAPI backend**, uses **LangChai
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Reyad02/Ask-My-PDF.git
-cd Ask-My-PDF
+git clone https://github.com/Reyad02/DocuQueryAI.git
+cd DocuQueryAI
 ```
 
 ### 2. Create Virtual Environment
