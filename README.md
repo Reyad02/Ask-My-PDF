@@ -11,6 +11,7 @@ It combines a **Streamlit frontend** with a **FastAPI backend**, uses **LangChai
 -  Powered by **LangChain** for document chunking, embeddings and retrieval.
 -  ChromaDB + SQLite for efficient vector search and metadata storage.
 -  Provides response based on the current session history.
+-  User can select model between gpt-4o and gpt-4o-mini.
 
 
 ---
