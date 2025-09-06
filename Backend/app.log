@@ -59,3 +59,13 @@ INFO:root:Session ID: 51290988-2d5f-4a6e-9a2c-7ebfb54ca734, User Query: what is 
 INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 INFO:root:Session ID: 51290988-2d5f-4a6e-9a2c-7ebfb54ca734, AI Response: The name of the car is the Toyota Corolla 2024.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: e8a0403a-a133-45b9-ab82-3b99b99af7ad, User Query: what is the full from of napa, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: e8a0403a-a133-45b9-ab82-3b99b99af7ad, AI Response: The full form of NAPA is National Adaptation Programme of Action.
+INFO:root:Session ID: e8a0403a-a133-45b9-ab82-3b99b99af7ad, User Query: how many things it built, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: e8a0403a-a133-45b9-ab82-3b99b99af7ad, AI Response: The National Adaptation Programme of Action (NAPA) in Bangladesh was built on four pillars: i) Food security, ii) Energy security, iii) Water security, and iv) Livelihood security.
